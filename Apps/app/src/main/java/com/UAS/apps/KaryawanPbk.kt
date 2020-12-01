@@ -11,13 +11,13 @@ interface KaryawanPbk {
     @Query("SELECT * FROM karyawan WHERE nip IN (:userIds)")
     fun loadAllByIds(userIds: IntArray): List<Karyawan>
 
-    @Query("SELECT * FROM mahasiswa WHERE nama LIKE :nama AND " +
-            "prodi LIKE :prodi LIMIT 1")
-    fun findByName(nama: String, prodi: String): Karyawan
+    @Query("SELECT * FROM Karyawan WHERE nama LIKE :nama AND " +
+            "divisi LIKE :divisi LIMIT 1")
+    fun findByName(nama: String, divisi: String): Karyawan
 
     @Insert
-    fun insertAll(vararg mahasiswa: Karyawan)
+    fun insertAll(vararg karyawan: Karyawan)
 
     @Delete
-    fun delete(mahasiswa: Karyawan)
+    fun delete(karyawan: Karyawan)
 }

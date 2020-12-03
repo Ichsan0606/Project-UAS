@@ -12,7 +12,7 @@ abstract class JabatanRoomDatabase : RoomDatabase() {
     abstract val applicationContext: Context
     val db = Room.databaseBuilder(
             applicationContext,
-            JabatanRoomDatabase::class.java, "DBMHS"
+            JabatanRoomDatabase::class.java, "DBKYN"
     ).build()
 
 }

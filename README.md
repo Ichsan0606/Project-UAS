@@ -1,10 +1,11 @@
 # Final Project Mobile Programming & OOP2
 
-## Kelas 5C
-Fariq Fadillah Gusti Insani - 18090094
+## Kelas 5D
 
-Sofanji - 18090098
+Hafizh Umar Syafiqh - 18090138
+
+M Ichsan Maulana - 18090119
 
 - Database using room
 
-- Data Barang (Helm)
+- Data Barang (sepatu)

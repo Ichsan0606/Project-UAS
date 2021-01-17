@@ -1,11 +1,10 @@
-# Final Project Mobile Programming & OOP2
+# Final Project OOP2
 
 ## Kelas 5D
+Moh. Ichsan Maulana - 18090115
 
 Hafizh Umar Syafiqh - 18090138
 
-M Ichsan Maulana - 18090119
-
 - Database using room
 
-- Data Barang (sepatu)
+- Data Barang (Sepatu)
